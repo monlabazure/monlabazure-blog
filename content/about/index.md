@@ -2,15 +2,7 @@
 title: "À propos"
 date: 2026-05-29
 draft: false
----git add .
-
-# À propos
-
 ---
-
-title: "À propos"
-draft: false
-------------
 
 # À propos
 

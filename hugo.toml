@@ -54,6 +54,11 @@ defaultTheme = "auto"
 
 disableThemeToggle = false
 
+# icon logo-monlabazure.png
+
+label.icon = "/images/favicon.png"
+label.iconHeight = 35
+
 # Affiche le temps estimé de lecture
 
 ShowReadingTime = true
@@ -87,6 +92,7 @@ ShowPostNavLinks = true
 # Désactivés volontairement
 
 ShowShareButtons = false
+
 
 # ==========================================================
 
