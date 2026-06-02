@@ -1,45 +1,161 @@
+# ==========================================================
+
+# MonLabAzure
+
+# Configuration principale Hugo
+
+# ==========================================================
+
+# URL publique du site
+
 baseURL = "https://monlabazure.fr/"
+
+# Langue principale
+
 locale = "fr-fr"
-title = "Mon Lab Azure"
+
+# Titre du site
+
+title = "MonLabAzure"
+
+# Thème utilisé
+
 theme = "PaperMod"
 
+# ==========================================================
+
+# Pagination
+
+# ==========================================================
+
 [pagination]
+
+# Nombre d'articles affichés par page
+
 pagerSize = 10
 
+# ==========================================================
+
+# Paramètres PaperMod
+
+# ==========================================================
+
 [params]
+
+# Active certaines optimisations de production
+
 env = "production"
+
+# Thème automatique selon le navigateur
+
 defaultTheme = "auto"
+
+# Autorise le changement Clair / Sombre
+
+disableThemeToggle = false
+
+# Affiche le temps estimé de lecture
+
 ShowReadingTime = true
+
+# Affiche le nombre de mots de l'article
+
+ShowWordCount = true
+
+# Ajoute un bouton "Copier" sur les blocs de code
+
 ShowCodeCopyButtons = true
+
+# Affiche automatiquement la table des matières
+
 ShowToc = true
+
+# Ouvre la table des matières par défaut
+
 TocOpen = true
+
+# Fil d'Ariane
+
 ShowBreadCrumbs = true
+
+# Liens Article précédent / suivant
+
 ShowPostNavLinks = true
 
+# Boutons de partage
+
+# Désactivés volontairement
+
+ShowShareButtons = false
+
+# ==========================================================
+
+# Page d'accueil
+
+# ==========================================================
+
 [params.homeInfoParams]
-Title = "Mon Lab Azure"
-Content = "Blog technique autour d'Azure, Terraform, SQL Server, Active Directory, Linux, VMware et DevOps."
+
+Title = "MonLabAzure"
+
+Content = """
+Architecture • Cloud Platform • Infrastructure • Automatisation
+
+Architectures de référence, ADR, gouvernance Cloud, Azure, Terraform, SQL Server, Active Directory, Linux et automatisation.
+"""
+
+# ==========================================================
+
+# Menu principal
+
+# ==========================================================
 
 [[menu.main]]
-identifier = "azure"
-name = "Azure"
-url = "/azure/"
+identifier = "architecture"
+name = "Architecture"
+url = "/architecture/"
 weight = 10
 
 [[menu.main]]
-identifier = "terraform"
-name = "Terraform"
-url = "/terraform/"
+identifier = "cloud-platform"
+name = "Cloud Platform"
+url = "/cloud-platform/"
 weight = 20
 
 [[menu.main]]
-identifier = "sqlserver"
-name = "SQL Server"
-url = "/sqlserver/"
+identifier = "infrastructure"
+name = "Infrastructure"
+url = "/infrastructure/"
 weight = 30
+
+[[menu.main]]
+identifier = "automatisation"
+name = "Automatisation"
+url = "/automatisation/"
+weight = 40
 
 [[menu.main]]
 identifier = "about"
 name = "À propos"
 url = "/about/"
 weight = 90
+
+# ==========================================================
+
+# Taxonomies
+
+# ==========================================================
+
+[taxonomies]
+
+# Exemple :
+
+# tags = ["azure","aks","terraform"]
+
+tag = "tags"
+
+# Exemple :
+
+# categories = ["Architecture"]
+
+category = "categories"
