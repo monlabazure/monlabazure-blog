@@ -1,0 +1,45 @@
+baseURL = "https://monlabazure.fr/"
+locale = "fr-fr"
+title = "Mon Lab Azure"
+theme = "PaperMod"
+
+[pagination]
+pagerSize = 10
+
+[params]
+env = "production"
+defaultTheme = "auto"
+ShowReadingTime = true
+ShowCodeCopyButtons = true
+ShowToc = true
+TocOpen = true
+ShowBreadCrumbs = true
+ShowPostNavLinks = true
+
+[params.homeInfoParams]
+Title = "Mon Lab Azure"
+Content = "Blog technique autour d'Azure, Terraform, SQL Server, Active Directory, Linux, VMware et DevOps."
+
+[[menu.main]]
+identifier = "azure"
+name = "Azure"
+url = "/azure/"
+weight = 10
+
+[[menu.main]]
+identifier = "terraform"
+name = "Terraform"
+url = "/terraform/"
+weight = 20
+
+[[menu.main]]
+identifier = "sqlserver"
+name = "SQL Server"
+url = "/sqlserver/"
+weight = 30
+
+[[menu.main]]
+identifier = "about"
+name = "À propos"
+url = "/about/"
+weight = 90
