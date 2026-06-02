@@ -1,6 +1,6 @@
 \# MonLabAzure
 
-
+![MonLabAzure](static/images/github-cover-monlabazure.png)
 
 Blog technique consacré à :
 
