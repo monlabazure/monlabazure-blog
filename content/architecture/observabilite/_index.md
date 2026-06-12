@@ -1,5 +1,0 @@
----
-title: "Observabilite"
-draft: false
----
-

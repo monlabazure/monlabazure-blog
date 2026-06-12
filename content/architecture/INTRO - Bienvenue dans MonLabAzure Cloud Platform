@@ -1,0 +1,287 @@
+---
+title: "# INTRO - Bienvenue dans MonLabAzure Cloud Platform"
+date: 2026-05-01
+draft: false
+categories: ["Architecture"]
+tags: ["INTRO", "architecture", "cloud-platform", "Blog"]
+---
+
+
+# INTRO – Bienvenue dans MonLabAzure Cloud Platform
+
+## Introduction
+
+Bienvenue dans MonLabAzure Cloud Platform.
+
+Ce projet est né d'un constat simple.
+
+Il existe aujourd'hui de nombreux tutoriels Azure expliquant comment créer une ressource, déployer un service ou configurer une fonctionnalité spécifique. Cependant, il est beaucoup plus rare de trouver un parcours complet permettant de construire progressivement une plateforme Azure cohérente, gouvernée, sécurisée et exploitable comme dans un véritable contexte d'entreprise.
+
+L'objectif de MonLabAzure Cloud Platform est de combler ce manque.
+
+Tout au long de cette série, nous allons concevoir, déployer, sécuriser, superviser et optimiser une plateforme Azure complète en appliquant les mêmes principes que ceux utilisés dans les projets Cloud professionnels.
+
+---
+
+# Pourquoi ce Projet ?
+
+Lorsque l'on débute ou même lorsque l'on possède déjà plusieurs années d'expérience sur Azure, il est fréquent de maîtriser certains services sans forcément comprendre comment les intégrer dans une architecture globale.
+
+Par exemple :
+
+* Comment structurer un tenant Azure ?
+* Comment organiser les abonnements ?
+* Comment appliquer une gouvernance cohérente ?
+* Comment sécuriser les accès ?
+* Comment construire un réseau Hub & Spoke ?
+* Comment héberger une application métier ?
+* Comment préparer une plateforme Kubernetes ?
+* Comment maîtriser les coûts Azure ?
+
+Ces questions ne trouvent généralement pas de réponse dans un seul tutoriel.
+
+MonLabAzure Cloud Platform a été conçu pour répondre à cette problématique.
+
+---
+
+# Les Objectifs du Projet
+
+Le projet poursuit plusieurs objectifs.
+
+## Construire une véritable Landing Zone Azure
+
+Nous partirons d'un tenant Azure quasiment vide pour construire progressivement une plateforme complète.
+
+---
+
+## Appliquer les bonnes pratiques Microsoft
+
+Nous nous appuierons notamment sur :
+
+* Cloud Adoption Framework (CAF)
+* Azure Well-Architected Framework
+* Azure Landing Zones
+* FinOps Framework
+
+---
+
+## Utiliser Terraform comme Infrastructure as Code
+
+L'ensemble de la plateforme sera déployé et administré avec Terraform.
+
+L'objectif est de construire une infrastructure reproductible, versionnée et automatisée.
+
+---
+
+## Adopter une approche Production Ready
+
+Chaque composant sera étudié selon plusieurs axes :
+
+* Architecture
+* Sécurité
+* Gouvernance
+* Exploitation
+* Coût
+* Maintenance
+
+---
+
+## Comprendre les choix d'architecture
+
+Nous ne nous limiterons pas au "comment".
+
+Nous chercherons également à comprendre le "pourquoi".
+
+C'est la raison pour laquelle le projet intègre des ADR (Architecture Decision Records).
+
+---
+
+# Public Cible
+
+Cette série s'adresse principalement à :
+
+* Ingénieurs Cloud Azure
+* Architectes Cloud Azure
+* Administrateurs Systèmes souhaitant évoluer vers Azure
+* Consultants Cloud
+* Responsables Infrastructure
+
+Le contenu est orienté niveau intermédiaire à expert.
+
+Certaines notions fondamentales Azure seront rappelées lorsque nécessaire, mais l'objectif principal reste la construction d'une plateforme moderne et gouvernée.
+
+---
+
+# Architecture Cible
+
+La plateforme construite tout au long du projet reposera sur :
+
+## Gouvernance
+
+* Management Groups
+* Azure Policy
+* RBAC
+* Tags
+* FinOps
+
+---
+
+## Réseau
+
+* Hub & Spoke
+* Azure Firewall
+* Bastion
+* DNS Privé
+* Connectivité sécurisée
+
+---
+
+## Sécurité
+
+* Microsoft Entra ID
+* Azure Key Vault
+* Managed Identities
+* Defender for Cloud
+* Contrôles de conformité
+
+---
+
+## Observabilité
+
+* Azure Monitor
+* Log Analytics
+* Alertes
+* Dashboards
+
+---
+
+## Applications
+
+* App Service
+* Azure SQL
+* Private Endpoints
+
+---
+
+## Cloud Native
+
+* Azure Container Registry
+* AKS
+* API Management
+
+---
+
+## Résilience
+
+* Sauvegardes
+* Réplication
+* Plan de reprise d'activité
+
+---
+
+# Philosophie du Projet
+
+Tout au long des différentes phases, nous appliquerons systématiquement les principes suivants :
+
+## Comprendre avant de déployer
+
+Chaque série commencera par expliquer le contexte et les objectifs.
+
+---
+
+## Déployer avec Terraform
+
+La plateforme sera construite selon les principes Infrastructure as Code.
+
+---
+
+## Valider systématiquement
+
+Chaque série se terminera par une phase de validation.
+
+---
+
+## Mesurer les coûts
+
+Chaque service sera accompagné d'une analyse FinOps.
+
+---
+
+## Prévoir le nettoyage
+
+Les procédures de suppression seront documentées lorsque cela est pertinent.
+
+---
+
+# Organisation du Parcours
+
+Le projet est organisé en plusieurs phases successives.
+
+## Phase 0 – Architecture Foundation
+
+Définition de l'architecture, des standards et des décisions.
+
+---
+
+## Phase 1 – Landing Zone Foundation
+
+Création de la fondation Azure.
+
+---
+
+## Phase 2 – Governance & Security Foundation
+
+Mise en place des Azure Policies et de la gouvernance.
+
+---
+
+## Phase 3 – Identity & Access Management
+
+Gestion des accès et des rôles.
+
+---
+
+## Phase 4 à 16
+
+Construction progressive de la plateforme :
+
+* Réseau
+* Sécurité
+* Supervision
+* Applications
+* Kubernetes
+* API Management
+* PRA
+* FinOps
+
+Jusqu'à l'obtention d'une plateforme Azure Enterprise complète.
+
+---
+
+# Ce que Vous Allez Construire
+
+À la fin du parcours, vous disposerez d'une plateforme Azure comprenant :
+
+* Une Landing Zone gouvernée
+* Un réseau Hub & Spoke
+* Une supervision centralisée
+* Une stratégie de sécurité complète
+* Une application métier fonctionnelle
+* Une plateforme Kubernetes
+* Une couche API Management
+* Une stratégie de résilience
+* Une gouvernance FinOps
+
+Le tout déployé et maintenu avec Terraform.
+
+---
+
+# Conclusion
+
+MonLabAzure Cloud Platform n'est pas une simple collection d'articles techniques.
+
+Il s'agit d'un projet d'architecture complet dont l'objectif est de reproduire, à échelle maîtrisée, les différentes étapes de construction d'une plateforme Azure moderne.
+
+Chaque phase s'appuie sur les précédentes afin de construire progressivement un environnement cohérent, sécurisé, observable et prêt pour la production.
+
+Commençons maintenant par la Phase 0 – Architecture Foundation, qui pose les fondations de l'ensemble du projet.
