@@ -1,19 +1,17 @@
 ---
-
 title: "NOTE-2.1 - De Terraform Pédagogique à Terraform Enterprise"
 date: 2026-06-08
 draft: false
-categories: ["Architecture"]
+categories:
+  - "Architecture"
 tags:
-
-* "Note"
-* "Terraform"
-* "Azure Policy"
-* "Architecture"
-* "Best Practices"
-* "Enterprise"
-* "Azure"
-
+  - "Note"
+  - "Terraform"
+  - "Azure Policy"
+  - "Architecture"
+  - "Best Practices"
+  - "Enterprise"
+  - "Azure"
 ---
 
 # NOTE-2.1 – De Terraform Pédagogique à Terraform Enterprise
